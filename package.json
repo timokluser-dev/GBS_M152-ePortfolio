@@ -1,0 +1,22 @@
+{
+  "name": "gbs_m152-eportfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "mono repo for m152 eportfolio",
+  "scripts": {
+    "postinstall": "npm-run-all install:*",
+    "install:eportfolio": "cd eportfolio && npm i"
+  },
+  "author": "timokluser-dev",
+  "license": "MIT",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "engines": {
+    "node": "=16.16.0"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ]
+}
