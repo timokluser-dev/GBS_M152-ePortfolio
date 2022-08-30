@@ -1,5 +1,5 @@
 <script lang="ts">
-import {Options, prop, Vue} from 'vue-class-component';
+import { Options, prop, Vue } from 'vue-class-component';
 
 class Props {
   msg = prop<string>({});
@@ -14,10 +14,18 @@ export default class HelloWorld extends Vue.with(Props) {
 </script>
 
 <template>
-  <h1 class="text-6xl">{{ msg }}</h1>
+  <h1 class="text-6xl">
+    {{ msg }}
+  </h1>
 
   <div class="card">
-    <button type="button" @click="count++" class="card__button bg-gray-800 hover:bg-gray-600 transition-colors my-4">count is {{ count }}</button>
+    <button
+      type="button"
+      class="card__button bg-gray-800 hover:bg-gray-600 transition-colors my-4"
+      @click="count++"
+    >
+      count is {{ count }}
+    </button>
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
@@ -26,15 +34,22 @@ export default class HelloWorld extends Vue.with(Props) {
 
   <p>
     Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank">create-vue</a>, the
-    official Vue + Vite starter
+    <a
+      href="https://vuejs.org/guide/quick-start.html#local"
+      target="_blank"
+    >create-vue</a>, the official Vue + Vite starter
   </p>
   <p>
     Install
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
+    <a
+      href="https://github.com/johnsoncodehk/volar"
+      target="_blank"
+    >Volar</a>
     in your IDE for a better DX
   </p>
-  <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
+  <p class="read-the-docs">
+    Click on the Vite and Vue logos to learn more
+  </p>
 </template>
 
 <style scoped lang="scss">
