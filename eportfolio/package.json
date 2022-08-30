@@ -8,9 +8,7 @@
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "lint": "eslint . --ignore-path .gitignore --ext .js,.ts,.vue",
-    "lint:fix": "npm run lint -- --fix",
-    "prettier": "prettier --check '**.(js|ts|vue)'",
-    "prettier:fix": "prettier --write '**.(js|ts|vue)'"
+    "lint:fix": "npm run lint -- --fix"
   },
   "dependencies": {
     "vue": "^3.2.37",
