@@ -8,15 +8,20 @@
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "prettier": "prettier --check src/*",
-    "prettier:fix": "prettier --write src/*"
+    "prettier:fix": "prettier --write src/*",
+    "lint": "eslint --ext .js,.vue src",
+    "lint:fix": "npm run lint -- --fix"
   },
   "dependencies": {
     "vue": "^3.2.37",
     "vue-class-component": "^8.0.0-rc.1"
   },
   "devDependencies": {
+    "@typescript-eslint/parser": "^5.36.0",
     "@vitejs/plugin-vue": "^3.0.3",
     "autoprefixer": "^10.4.8",
+    "eslint": "^8.23.0",
+    "eslint-plugin-vue": "^9.4.0",
     "postcss": "^8.4.16",
     "prettier": "^1.19.1",
     "prettier-airbnb-config": "^1.0.0",
