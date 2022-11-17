@@ -5,6 +5,7 @@
   "description": "mono repo for m152 eportfolio",
   "scripts": {
     "postinstall": "npm-run-all install:*",
+    "install:styleguide": "cd styleguide && npm i",
     "install:eportfolio": "cd eportfolio && npm i"
   },
   "author": "timokluser-dev",
