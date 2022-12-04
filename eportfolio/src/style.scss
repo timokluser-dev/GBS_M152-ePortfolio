@@ -6,3 +6,7 @@ body,
 #app {
   @apply min-h-screen;
 }
+
+[v-cloak] {
+  @apply hidden;
+}
