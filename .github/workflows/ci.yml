@@ -1,0 +1,54 @@
+name: CI
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: setup node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.16.0
+      - name: install
+        run: |
+          npm ci
+      - name: prepare
+        run: |
+          mkdir dist
+          mkdir dist/styleguide
+          mkdir dist/www
+      - name: "styleguide: build"
+        run: |
+          cd styleguide
+          npm run build
+          cp -R catalog/build/ ../dist/styleguide
+      - name: "eportfolio: build"
+        run: |
+          cd eportfolio
+          npm run build
+          cp -R dist/ ../dist/www
+      - name: publish
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: dist/
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.gh-pages.outputs.page_url }}
+    steps:
+      - name: deploy to github pages
+        id: gh-pages
+        uses: actions/deploy-pages@v1
+        with:
+          artifact_name: github-pages
