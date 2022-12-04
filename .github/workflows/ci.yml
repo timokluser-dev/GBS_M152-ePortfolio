@@ -21,17 +21,16 @@ jobs:
         run: |
           mkdir dist
           mkdir dist/styleguide
-          mkdir dist/www
+      - name: "eportfolio: build"
+        run: |
+          cd eportfolio
+          npm run build
+          cp -R dist/. ../dist/
       - name: "styleguide: build"
         run: |
           cd styleguide
           npm run build
           cp -R catalog/build/. ../dist/styleguide/
-      - name: "eportfolio: build"
-        run: |
-          cd eportfolio
-          npm run build
-          cp -R dist/. ../dist/www/
       - name: publish
         uses: actions/upload-pages-artifact@v1
         with:
