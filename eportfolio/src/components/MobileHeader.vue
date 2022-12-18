@@ -80,7 +80,7 @@ export default class MobileHeader extends Vue.with(Props) {
     @apply mb-24;
 
     &__svg {
-      @apply w-3/4;
+      @apply w-4/6;
       max-width: 300px;
     }
   }
