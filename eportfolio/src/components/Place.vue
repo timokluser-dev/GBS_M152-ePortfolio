@@ -183,7 +183,7 @@ export default class Place extends mixins(ScrollPosition).with(Props) {}
         .place__link {
           @apply mt-8;
           @apply text-primary inline-block;
-          @apply transition;
+          @apply transition-all;
 
           &::after {
             @apply w-0;

@@ -54,6 +54,7 @@ export default class Intro extends mixins(ScrollPosition).with(Props) {
     &-container {
       @apply absolute bottom-0;
       @apply bg-overlay;
+      @apply transition-all;
 
       margin-bottom: 30px;
       margin-left: 15px;
@@ -89,7 +90,7 @@ export default class Intro extends mixins(ScrollPosition).with(Props) {
 
     &-subline {
       @apply text-white;
-      @apply transition;
+      @apply transition-all;
       font-size: 24px;
 
       @screen md {
