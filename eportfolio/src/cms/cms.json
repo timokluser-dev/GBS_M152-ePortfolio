@@ -1,0 +1,79 @@
+{
+  "intro": {
+    "title": "Wil erleben",
+    "subtitle": "einen subtitle",
+    "video": {
+      "source": {
+        "webm": "./video/video.webm",
+        "mp4": "./video/video.mp4"
+      }
+    }
+  },
+  "places": [
+    {
+      "name": "Altstadt",
+      "slug": "altstadt",
+      "description": "Die Wiler Altstadt ist ein wichtiges historisches und kulturelles Zentrum der Stadt Wil. Sie beherbergt zahlreiche architektonisch und kulturell bedeutende Gebäude und Sehenswürdigkeiten, die die Geschichte der Stadt widerspiegeln. Ein Spaziergang durch die Wiler Altstadt ist ein Muss für jeden Besucher, der die Schönheit und den Charme der Stadt erleben möchte.",
+      "link": {
+        "label": "Altstadtvereinigung Wil",
+        "link": "https://altstadtwil.ch/"
+      },
+      "image": {
+        "sm": {
+          "webp": "https://via.placeholder.com/585x396.webp?text=Altstadt",
+          "jpeg": "https://via.placeholder.com/585x396.png?text=Altstadt"
+        },
+        "md": {
+          "webp": "https://via.placeholder.com/878x594.webp?text=Altstadt",
+          "jpeg": "https://via.placeholder.com/878x594.png?text=Altstadt"
+        },
+        "lg": {
+          "webp": "https://via.placeholder.com/1170x792.webp?text=Altstadt",
+          "jpeg": "https://via.placeholder.com/1170x792.png?text=Altstadt"
+        }
+      }
+    },
+    {
+      "name": "Wiler Turm",
+      "slug": "wiler-turm",
+      "description": "Der Wiler Turm ist ein Wahrzeichen der Stadt Wil. Er befindet sich auf einem Hügel über der Stadt und bietet einen atemberaubenden Ausblick auf die umliegende Landschaft. Heute ist er ein beliebtes Touristenziel und bietet Besuchern die Möglichkeit, den Turm zu besteigen und die Aussicht zu geniessen. Besonders bei schönem Wetter ist der Wiler Turm ein lohnenswertes Ziel, um die Schönheit der Stadt und ihrer Umgebung zu geniessen.",
+      "link": {
+        "label": "Live Aussicht",
+        "link": "https://wilerturm.roundshot.com/#/"
+      },
+      "image": {
+        "sm": {
+          "webp": "https://via.placeholder.com/585x396.webp?text=Wiler%20Turn",
+          "jpeg": "https://via.placeholder.com/585x396.png?text=Wiler%20Turn"
+        },
+        "md": {
+          "webp": "https://via.placeholder.com/878x594.webp?text=Wiler%20Turn",
+          "jpeg": "https://via.placeholder.com/878x594.png?text=Wiler%20Turn"
+        },
+        "lg": {
+          "webp": "https://via.placeholder.com/1170x792.webp?text=Wiler%20Turn",
+          "jpeg": "https://via.placeholder.com/1170x792.png?text=Wiler%20Turn"
+        }
+      }
+    },
+    {
+      "name": "Bahnhofstrasse",
+      "slug": "bahnhofstrasse",
+      "description": "Die Bahnhofsstrasse in Wil ist eine der bekanntesten Einkaufsstrassen der Stadt. Sie befindet sich im Herzen der Stadt und ist nur wenige Schritte vom Bahnhof entfernt. Die Bahnhofsstrasse ist bekannt für ihre zahlreichen Geschäfte, Boutiquen und Restaurants, die Besuchern die Möglichkeit bieten, die lokale Kultur und Gastronomie zu erkunden. Die Strasse ist auch Heimat von verschiedenen Banken und anderen Dienstleistungsunternehmen, die die Bedürfnisse der lokalen Bevölkerung und der Besucher erfüllen.",
+      "image": {
+        "sm": {
+          "webp": "https://via.placeholder.com/585x396.webp?text=Obere%20Bahnhofstrasse",
+          "jpeg": "https://via.placeholder.com/585x396.png?text=Obere%20Bahnhofstrasse"
+        },
+        "md": {
+          "webp": "https://via.placeholder.com/878x594.webp?text=Obere%20Bahnhofstrasse",
+          "jpeg": "https://via.placeholder.com/878x594.png?text=Obere%20Bahnhofstrasse"
+        },
+        "lg": {
+          "webp": "https://via.placeholder.com/1170x792.webp?text=Obere%20Bahnhofstrasse",
+          "jpeg": "https://via.placeholder.com/1170x792.png?text=Obere%20Bahnhofstrasse"
+        }
+      }
+    }
+  ]
+}
