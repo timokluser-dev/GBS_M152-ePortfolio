@@ -4,8 +4,8 @@
     "subtitle": "Natur, Kultur, Alltag.",
     "video": {
       "source": {
-        "webm": "./video/video.webm",
-        "mp4": "./video/video.mp4"
+        "webm": "https://res.cloudinary.com/dfpqrw8ac/video/upload/f_webm/q_60/wil-sg-tourism/video_kkg98f.webm",
+        "mp4": "https://res.cloudinary.com/dfpqrw8ac/video/upload/f_mp4/q_80/wil-sg-tourism/video_kkg98f.mp4"
       }
     }
   },
