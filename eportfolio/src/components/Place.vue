@@ -30,7 +30,12 @@
               type="image/jpeg"
             />
 
-            <img :src="place?.image.sm.jpeg" :alt="place?.name" />
+            <img
+              :src="place?.image.sm.jpeg"
+              :alt="place?.name"
+              width="100%"
+              height="100%"
+            />
           </picture>
         </div>
 
@@ -47,6 +52,7 @@
               :href="place.link.link"
               class="place__link"
               target="_blank"
+              @click.prevent="onLinkClick"
             >
               <span>{{ place.link.label }}</span>
             </a>
@@ -68,7 +74,15 @@ class Props {
 }
 
 @Options({})
-export default class Place extends mixins(ScrollPosition).with(Props) {}
+export default class Place extends mixins(ScrollPosition).with(Props) {
+  onLinkClick(): void {
+    if (!this.place || !this.place.link) {
+      return;
+    }
+
+    window.open(this.place?.link.link, '_blank');
+  }
+}
 </script>
 
 <style scoped lang="scss">
@@ -182,10 +196,12 @@ export default class Place extends mixins(ScrollPosition).with(Props) {}
 
         .place__link {
           @apply mt-8;
+          @apply block;
           @apply text-primary inline-block;
-          @apply transition-all;
 
           @screen md {
+            @apply transition-all;
+
             &::after {
               @apply w-0;
               @apply block;

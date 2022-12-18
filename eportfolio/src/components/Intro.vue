@@ -1,6 +1,15 @@
 <template>
   <section id="intro" ref="intro" class="intro bg-gray-300">
-    <video ref="video" class="intro__video" autoplay loop muted>
+    <video
+      ref="video"
+      class="intro__video"
+      width="100vw"
+      height="100vh"
+      autoplay
+      loop
+      muted
+      playsinline
+    >
       <source :src="intro?.video?.source?.mp4" type="video/mp4" />
       <source :src="intro?.video?.source?.webm" type="video/webm" />
     </video>
