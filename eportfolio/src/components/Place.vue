@@ -68,36 +68,7 @@ class Props {
 }
 
 @Options({})
-export default class Place extends mixins(ScrollPosition).with(Props) {
-  // created(): void {
-  //   document.addEventListener('scroll', this.onScroll);
-  // }
-  //
-  // beforeUnmount(): void {
-  //   document.removeEventListener('scroll', this.onScroll);
-  // }
-  //
-  // onScroll(): void {
-  //   if (!this.place) {
-  //     return;
-  //   }
-  //   const element = this.$refs[this.place.slug] as HTMLElement;
-  //   const rect = element.getBoundingClientRect();
-  //   const { top, height, y } = rect;
-  //
-  //   const from = top;
-  //   const to = top + height;
-  //
-  //   console.log('scrollYPosition', this.scrollYPosition);
-  //   console.log(this.place.slug, `from: ${from}`, `to: ${to}`);
-  //   console.log(rect);
-  //
-  //   if (y <= 0 && to > 0) {
-  //     window.location.hash = this.place.slug;
-  //     history.pushState({}, '', `#${this.place.slug}`);
-  //   }
-  // }
-}
+export default class Place extends mixins(ScrollPosition).with(Props) {}
 </script>
 
 <style scoped lang="scss">
