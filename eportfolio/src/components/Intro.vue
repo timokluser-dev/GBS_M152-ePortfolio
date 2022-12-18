@@ -13,7 +13,7 @@
 </template>
 
 <script lang="ts">
-import { mixins, Options, Vue } from 'vue-class-component';
+import { mixins, Options } from 'vue-class-component';
 import { Intro as IntroModel } from '../cms/models';
 import ScrollPosition from '../mixins/ScrollPosition';
 import { Watch } from 'vue-property-decorator';
@@ -25,11 +25,9 @@ class Props {
 @Options({})
 export default class Intro extends mixins(ScrollPosition).with(Props) {
   @Watch('scrollYPosition')
-  onScrollYPositionChanged(scrollYPosition: number) {
+  onScrollYPositionChanged(scrollYPosition: number): void {
     const intro = this.$refs['intro'] as HTMLElement;
     const introHeight = intro.clientHeight;
-
-    console.log('scrollYPosition', scrollYPosition);
 
     const video = this.$refs['video'] as HTMLVideoElement;
     if (scrollYPosition >= introHeight) {

@@ -15,7 +15,7 @@ const routes: RouteRecordRaw[] = [{ path: '/', name: 'home', component: Page }];
 const router = createRouter({
   history: createWebHistory(),
   routes,
-  scrollBehavior(to, _, __) {
+  scrollBehavior(to) {
     if (to.hash) {
       return {
         el: to.hash,

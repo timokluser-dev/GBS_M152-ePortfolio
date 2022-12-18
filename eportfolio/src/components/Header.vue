@@ -56,7 +56,7 @@ export default class Header extends mixins(ScrollPosition).with(Props) {
   }
 
   @Watch('$route')
-  onRouteChange() {
+  onRouteChange(): void {
     this.hash = window.location.hash;
   }
 
