@@ -52,3 +52,27 @@ jobs:
         uses: actions/deploy-pages@v1
         with:
           artifact_name: github-pages
+
+  deploy-ftp:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: webseiten.informatik.sg
+      url: "http://webseiten.informatik.sg/2022/ina4a/gruppe8/"
+    steps:
+      - name: download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: github-pages
+          path: ./
+      - name: unarchive artifact
+        run: |
+          mkdir -p ./upload
+          tar -xf artifact.tar -C ./upload
+      - name: "ftp: informatik.sg"
+        uses: SamKirkland/FTP-Deploy-Action@4.3.3
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./upload/
