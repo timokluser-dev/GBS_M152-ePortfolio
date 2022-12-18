@@ -16,7 +16,9 @@
     "@fontsource/space-grotesk": "^4.5.10",
     "@fontsource/space-mono": "^4.5.10",
     "vue": "^3.2.37",
-    "vue-class-component": "^8.0.0-rc.1"
+    "vue-class-component": "^8.0.0-rc.1",
+    "vue-property-decorator": "^10.0.0-rc.3",
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.36.0",
@@ -35,6 +37,7 @@
     "vite": "^3.0.7",
     "vite-plugin-eslint": "^1.8.1",
     "vite-svg-loader": "^3.6.0",
+    "vue-inline-svg": "^2.1.1",
     "vue-tsc": "^0.39.5"
   }
 }
