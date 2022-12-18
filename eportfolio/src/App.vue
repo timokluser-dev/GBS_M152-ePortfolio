@@ -13,7 +13,6 @@ import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
 import { Place as PlaceModel } from './cms/models';
 import { cms } from './cms';
-import { useAppStore } from './store';
 
 @Options({
   components: { Footer, Header, Page },

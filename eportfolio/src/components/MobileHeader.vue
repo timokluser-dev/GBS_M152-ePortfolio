@@ -13,7 +13,11 @@
         </div>
 
         <div class="mobile-menu-nav">
-          <Navigation :places="places" class="navigation" @close="onCloseClick" />
+          <Navigation
+            :places="places"
+            class="navigation"
+            @close="onCloseClick"
+          />
         </div>
       </div>
     </div>
