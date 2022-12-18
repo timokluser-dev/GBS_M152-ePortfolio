@@ -133,8 +133,7 @@ export default class Header extends mixins(ScrollPosition).with(Props) {
         @apply pr-0;
       }
 
-      a:hover,
-      a:focus {
+      a:hover {
         @apply text-primary;
       }
     }
