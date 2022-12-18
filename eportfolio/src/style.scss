@@ -35,6 +35,21 @@ body,
   .h3 {
     @apply text-xl;
   }
+
+  p,
+  span {
+    @apply hyphenate;
+  }
 }
 
-
+@layer utilities {
+  .hyphenate {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+}

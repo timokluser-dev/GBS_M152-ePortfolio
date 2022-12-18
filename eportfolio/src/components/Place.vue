@@ -160,6 +160,7 @@ export default class Place extends mixins(ScrollPosition).with(Props) {}
 
         .place__title {
           @apply mb-3;
+          @apply hyphenate;
 
           &:after {
             @apply text-primary;
