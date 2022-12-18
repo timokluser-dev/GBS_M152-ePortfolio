@@ -24,6 +24,11 @@ class Props {
 
 @Options({})
 export default class Intro extends mixins(ScrollPosition).with(Props) {
+  created(): void {
+    const video = this.$refs['video'] as HTMLVideoElement;
+    video.play();
+  }
+
   @Watch('scrollYPosition')
   onScrollYPositionChanged(scrollYPosition: number): void {
     const intro = this.$refs['intro'] as HTMLElement;
