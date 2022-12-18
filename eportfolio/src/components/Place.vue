@@ -185,17 +185,19 @@ export default class Place extends mixins(ScrollPosition).with(Props) {}
           @apply text-primary inline-block;
           @apply transition-all;
 
-          &::after {
-            @apply w-0;
-            @apply block;
-            @apply bg-primary;
-            @apply transition-all duration-300;
-            content: '';
-            height: 1.5px;
-          }
+          @screen md {
+            &::after {
+              @apply w-0;
+              @apply block;
+              @apply bg-primary;
+              @apply transition-all duration-300;
+              content: '';
+              height: 1.5px;
+            }
 
-          &:hover::after {
-            @apply w-full;
+            &:hover::after {
+              @apply w-full;
+            }
           }
         }
       }
