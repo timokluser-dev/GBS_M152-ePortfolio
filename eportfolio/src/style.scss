@@ -5,8 +5,36 @@
 body,
 #app {
   @apply min-h-screen;
+  @apply bg-primary;
 }
 
 [v-cloak] {
   @apply hidden;
 }
+
+@layer base {
+  h1,
+  .h1 {
+    @apply text-5xl;
+
+    @screen md {
+      @apply text-7xl;
+    }
+  }
+
+  h2,
+  .h2 {
+    @apply text-3xl;
+
+    @screen md {
+      @apply text-5xl;
+    }
+  }
+
+  h3,
+  .h3 {
+    @apply text-xl;
+  }
+}
+
+
