@@ -1,32 +1,80 @@
 /** @type {import("tailwindcss").Config} */
 module.exports = {
-  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     fontFamily: {
-      sans: ["Space Grotesk", "sans-serif"],
-      mono: ["Space Mono", "sans-serif"]
+      sans: ['Space Grotesk', 'sans-serif'],
+      mono: ['Space Mono', 'sans-serif'],
     },
     extend: {
       colors: {
-        primary: "#069748",
-        dark: "#231F20",
-        black: "#000000",
-        white: "#FFFFFF",
-        overlay: "rgba(0, 0, 0, 0.3)"
+        primary: {
+          DEFAULT: '#069748',
+          50: '#EEFFF4',
+          100: '#D7FFE9',
+          200: '#B2FFD3',
+          300: '#77FEB3',
+          400: '#35F389',
+          500: '#0BDC69',
+          600: '#02B754',
+          700: '#069748',
+          800: '#0B7039',
+          900: '#0B5C32',
+        },
+        dark: {
+          DEFAULT: '#231F20',
+          50: '#F7F6F6',
+          100: '#E6E1E3',
+          200: '#CCC3C7',
+          300: '#AB9DA2',
+          400: '#89787D',
+          500: '#6E5E63',
+          600: '#574A4D',
+          700: '#483D40',
+          800: '#3B3435',
+          900: '#231F20',
+        },
+        black: {
+          DEFAULT: '#000000',
+          50: '#F7F7F7',
+          100: '#E3E3E3',
+          200: '#C8C8C8',
+          300: '#A4A4A4',
+          400: '#818181',
+          500: '#666666',
+          600: '#515151',
+          700: '#434343',
+          800: '#383838',
+          900: '#000000',
+        },
+        white: {
+          DEFAULT: '#FFFFFF',
+          50: '#FFFFFF',
+          100: '#EFEFEF',
+          200: '#DCDCDC',
+          300: '#BDBDBD',
+          400: '#989898',
+          500: '#7C7C7C',
+          600: '#656565',
+          700: '#525252',
+          800: '#464646',
+          900: '#3D3D3D',
+        },
+        overlay: 'rgba(0, 0, 0, 0.3)',
       },
       height: {
-        "header-height": "75px",
-        "footer-height": "75px"
+        'header-height': '75px',
+        'footer-height': '75px',
       },
       padding: {
-        "header-height": "75px",
-        "footer-height": "75px"
+        'header-height': '75px',
+        'footer-height': '75px',
       },
       margin: {
-        "header-height": "75px",
-        "footer-height": "75px"
-      }
-    }
+        'header-height': '75px',
+        'footer-height': '75px',
+      },
+    },
   },
-  plugins: []
+  plugins: [],
 };
