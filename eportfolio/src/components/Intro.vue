@@ -5,6 +5,7 @@
       class="intro__video"
       width="100vw"
       height="100vh"
+      fetchpriority="high"
       autoplay
       loop
       muted

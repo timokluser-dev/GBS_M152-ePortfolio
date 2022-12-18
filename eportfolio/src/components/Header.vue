@@ -1,7 +1,7 @@
 <template>
   <header ref="header" class="header" :class="{ 'header--fixed': fixed }">
     <div class="header__left">
-      <router-link :to="{ name: 'home', hash: '#intro' }">
+      <router-link :to="{ name: 'home', hash: '#intro' }" aria-label="Home">
         <Logo class="logo" />
       </router-link>
     </div>
