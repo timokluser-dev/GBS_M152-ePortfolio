@@ -20,16 +20,16 @@
       },
       "image": {
         "sm": {
-          "webp": "https://via.placeholder.com/585x396.webp?text=Altstadt",
-          "jpeg": "https://via.placeholder.com/585x396.png?text=Altstadt"
+          "webp": "https://res.cloudinary.com/dfpqrw8ac/image/upload/f_webp/c_scale,w_585,h_396/q_auto:eco/wil-sg-tourism/Wil-Altstadt_m5pnnx.webp",
+          "jpeg": "https://res.cloudinary.com/dfpqrw8ac/image/upload/f_jpg/c_scale,w_585,h_396/q_auto:eco/wil-sg-tourism/Wil-Altstadt_m5pnnx.jpg"
         },
         "md": {
-          "webp": "https://via.placeholder.com/878x594.webp?text=Altstadt",
-          "jpeg": "https://via.placeholder.com/878x594.png?text=Altstadt"
+          "webp": "https://res.cloudinary.com/dfpqrw8ac/image/upload/f_webp/c_scale,w_878,h_594/q_auto:eco/wil-sg-tourism/Wil-Altstadt_m5pnnx.webp",
+          "jpeg": "https://res.cloudinary.com/dfpqrw8ac/image/upload/f_jpg/c_scale,w_878,h_594/q_auto:eco/wil-sg-tourism/Wil-Altstadt_m5pnnx.jpg"
         },
         "lg": {
-          "webp": "https://via.placeholder.com/1170x792.webp?text=Altstadt",
-          "jpeg": "https://via.placeholder.com/1170x792.png?text=Altstadt"
+          "webp": "https://res.cloudinary.com/dfpqrw8ac/image/upload/f_webp/c_scale,w_1170,h_792/q_auto:eco/wil-sg-tourism/Wil-Altstadt_m5pnnx.webp",
+          "jpeg": "https://res.cloudinary.com/dfpqrw8ac/image/upload/f_jpg/c_scale,w_1170,h_792/q_auto:eco/wil-sg-tourism/Wil-Altstadt_m5pnnx.jpg"
         }
       }
     },
@@ -43,16 +43,16 @@
       },
       "image": {
         "sm": {
-          "webp": "https://via.placeholder.com/585x396.webp?text=Wiler%20Turn",
-          "jpeg": "https://via.placeholder.com/585x396.png?text=Wiler%20Turn"
+          "webp": "https://res.cloudinary.com/dfpqrw8ac/image/upload/f_webp/c_scale,w_585,h_396/q_auto:eco/wil-sg-tourism/Wiler-Turm_rfa1ns.webp",
+          "jpeg": "https://res.cloudinary.com/dfpqrw8ac/image/upload/f_jpg/c_scale,w_585,h_396/q_auto:eco/wil-sg-tourism/Wiler-Turm_rfa1ns.jpg"
         },
         "md": {
-          "webp": "https://via.placeholder.com/878x594.webp?text=Wiler%20Turn",
-          "jpeg": "https://via.placeholder.com/878x594.png?text=Wiler%20Turn"
+          "webp": "https://res.cloudinary.com/dfpqrw8ac/image/upload/f_webp/c_scale,w_878,h_594/q_auto:eco/wil-sg-tourism/Wiler-Turm_rfa1ns.webp",
+          "jpeg": "https://res.cloudinary.com/dfpqrw8ac/image/upload/f_jpg/c_scale,w_878,h_594/q_auto:eco/wil-sg-tourism/Wiler-Turm_rfa1ns.jpg"
         },
         "lg": {
-          "webp": "https://via.placeholder.com/1170x792.webp?text=Wiler%20Turn",
-          "jpeg": "https://via.placeholder.com/1170x792.png?text=Wiler%20Turn"
+          "webp": "https://res.cloudinary.com/dfpqrw8ac/image/upload/f_webp/c_scale,w_1170,h_792/q_auto:eco/wil-sg-tourism/Wiler-Turm_rfa1ns.webp",
+          "jpeg": "https://res.cloudinary.com/dfpqrw8ac/image/upload/f_jpg/c_scale,w_1170,h_792/q_auto:eco/wil-sg-tourism/Wiler-Turm_rfa1ns.jpg"
         }
       }
     },
@@ -62,16 +62,16 @@
       "description": "Die Bahnhofstrasse in Wil ist eine der bekanntesten Einkaufsstrassen der Stadt. Sie befindet sich im Herzen der Stadt und ist nur wenige Schritte vom Bahnhof entfernt. Die Bahnhofsstrasse ist bekannt für ihre zahlreichen Geschäfte, Boutiquen und Restaurants, die Besuchern die Möglichkeit bieten, die lokale Kultur und Gastronomie zu erkunden. Die Strasse ist auch Heimat von verschiedenen Banken und anderen Dienstleistungsunternehmen, die die Bedürfnisse der lokalen Bevölkerung und der Besucher erfüllen.",
       "image": {
         "sm": {
-          "webp": "https://via.placeholder.com/585x396.webp?text=Obere%20Bahnhofstrasse",
-          "jpeg": "https://via.placeholder.com/585x396.png?text=Obere%20Bahnhofstrasse"
+          "webp": "https://res.cloudinary.com/dfpqrw8ac/image/upload/f_webp/c_scale,w_585,h_396/q_auto:eco/wil-sg-tourism/Bahnhofstrasse_u7dmmj.webp",
+          "jpeg": "https://res.cloudinary.com/dfpqrw8ac/image/upload/f_jpg/c_scale,w_585,h_396/q_auto:eco/wil-sg-tourism/Bahnhofstrasse_u7dmmj.jpg"
         },
         "md": {
-          "webp": "https://via.placeholder.com/878x594.webp?text=Obere%20Bahnhofstrasse",
-          "jpeg": "https://via.placeholder.com/878x594.png?text=Obere%20Bahnhofstrasse"
+          "webp": "https://res.cloudinary.com/dfpqrw8ac/image/upload/f_webp/c_scale,w_878,h_594/q_auto:eco/wil-sg-tourism/Bahnhofstrasse_u7dmmj.webp",
+          "jpeg": "https://res.cloudinary.com/dfpqrw8ac/image/upload/f_jpg/c_scale,w_878,h_594/q_auto:eco/wil-sg-tourism/Bahnhofstrasse_u7dmmj.jpg"
         },
         "lg": {
-          "webp": "https://via.placeholder.com/1170x792.webp?text=Obere%20Bahnhofstrasse",
-          "jpeg": "https://via.placeholder.com/1170x792.png?text=Obere%20Bahnhofstrasse"
+          "webp": "https://res.cloudinary.com/dfpqrw8ac/image/upload/f_webp/c_scale,w_1170,h_792/q_auto:eco/wil-sg-tourism/Bahnhofstrasse_u7dmmj.webp",
+          "jpeg": "https://res.cloudinary.com/dfpqrw8ac/image/upload/f_jpg/c_scale,w_1170,h_792/q_auto:eco/wil-sg-tourism/Bahnhofstrasse_u7dmmj.jpg"
         }
       }
     }
