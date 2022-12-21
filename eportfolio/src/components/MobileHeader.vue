@@ -49,7 +49,7 @@ export default class MobileHeader extends Vue.with(Props) {
 
 <style scoped lang="scss">
 .mobile-menu {
-  @apply w-auto h-0;
+  @apply w-screen h-0;
   @apply bg-white;
   @apply fixed top-0 left-0 z-10;
   @apply hidden;
