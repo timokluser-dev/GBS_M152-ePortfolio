@@ -88,7 +88,7 @@ export default class Place extends mixins(ScrollPosition).with(Props) {
 
 <style scoped lang="scss">
 .place {
-  @apply w-screen;
+  @apply w-auto;
   @apply pt-32;
 
   @screen md {

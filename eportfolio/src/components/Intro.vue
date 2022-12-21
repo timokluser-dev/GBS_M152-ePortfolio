@@ -56,9 +56,8 @@ export default class Intro extends mixins(ScrollPosition).with(Props) {
 
 <style scoped lang="scss">
 .intro {
-  @apply w-screen h-screen min-h-screen;
+  @apply w-auto h-screen min-h-screen;
   @apply -mt-header-height;
-  @apply snap-center;
 
   &__video {
     @apply h-full w-full;

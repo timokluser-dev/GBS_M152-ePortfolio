@@ -34,11 +34,5 @@ export default class Page extends Vue {
 <style scoped lang="scss">
 .page {
   @apply bg-white;
-
-  &__places {
-    scroll-snap-type: mandatory;
-    scroll-snap-points-y: repeat(100vh);
-    scroll-snap-type: y mandatory;
-  }
 }
 </style>

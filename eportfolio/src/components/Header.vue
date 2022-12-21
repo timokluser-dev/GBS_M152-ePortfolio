@@ -80,7 +80,7 @@ export default class Header extends mixins(ScrollPosition).with(Props) {
 
 <style scoped lang="scss">
 .header {
-  @apply w-screen h-header-height z-10;
+  @apply w-auto h-header-height z-10;
   @apply bg-transparent;
   @apply px-5;
   @apply flex flex-row justify-between;
